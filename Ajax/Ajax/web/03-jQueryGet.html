@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+        function ajaxTest() {
+            $.get("ajaxServlet", {
+                "username":"daliu"
+            }, function (data) {
+                document.getElementById("mydiv").innerHTML = data;
+            });
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="发送异步请求" onclick="ajaxTest()">
+    <div id="mydiv">
+    </div>
+</body>
+</html>

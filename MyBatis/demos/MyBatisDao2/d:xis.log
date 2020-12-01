@@ -1,0 +1,15 @@
+2019-11-18 22:58:44,790 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-11-18 22:58:44,991 201    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:58:44,991 201    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:58:44,991 201    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:58:44,992 202    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:58:45,204 414    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:58:45,204 414    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:58:45,204 414    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:58:45,205 415    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-11-18 22:58:45,275 485    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-11-18 22:58:45,632 842    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1800890735.
+2019-11-18 22:58:45,632 842    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6b57696f]
+2019-11-18 22:58:45,634 844    [           main] DEBUG com.daliu.dao.IUserDao.findAll  - ==>  Preparing: select * from user; 
+2019-11-18 22:58:45,667 877    [           main] DEBUG com.daliu.dao.IUserDao.findAll  - ==> Parameters: 
+2019-11-18 22:58:45,695 905    [           main] DEBUG com.daliu.dao.IUserDao.findAll  - <==      Total: 9

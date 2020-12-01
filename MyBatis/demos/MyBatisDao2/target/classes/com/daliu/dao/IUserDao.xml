@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.daliu.dao.IUserDao">
+    <!--查询所有-->
+    <select id="findAll" resultType="com.daliu.domain.User">
+        select * from user;
+    </select>
+    <!--保存-->
+    <insert id="saveUser" parameterType="com.daliu.domain.User">
+        insert into user(username, address, sex, birthday) values(#{username}, #{address}, #{sex}, #{birthday})
+        <!--注：#{address}默认执行的是getAddress()方法-->
+    </insert>
+    <!--更新-->
+    <update id="updateUser" parameterType="com.daliu.domain.User">
+        update user set username = #{username}, address = #{address}, sex = #{sex}, birthday = #{birthday} where id = #{id}
+    </update>
+    <!--删除用户-->
+    <delete id="deleteUser" parameterType="java.lang.Integer"> <!--Integer, Int, int都可以-->
+        delete from user where id = #{uid}
+        <!--这里的{}中的uid只是起到占位符的意义，写什么都可以
+        注：dao方法中deleteuser(Integer userId)中只有一个参数，而且是基本类型或基本类型包装类型，这种情况下占位符可以随意写-->
+    </delete>
+    <!--根据id查询用户-->
+    <select id="findById" parameterType="int" resultType="com.daliu.domain.User">
+        select * from user where id = #{uid}
+    </select>
+    <!--根据名称模糊查询-->
+    <select id="findByName" parameterType="string" resultType="com.daliu.domain.User">
+        select * from user where username like #{name}
+        <!--mybatis翻译为: select * from user where username like ?-->
+    </select>
+    <!--聚合函数，查询总用户数-->
+    <select id="findTotal" resultType="int">
+        select count(id) from user <!--也可以 select count(*) from user-->
+    </select>
+</mapper>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post测试</title>
+</head>
+<body>
+    <form action="servlet/PostServlet" method="post">
+        姓名：<input type="text" name="name" value="" /> <br />
+        密码：<input type="password" name="password" value="" /> <br />
+        再次输入密码：<input type="password" name="rePassword" value="" /> <br />
+        性别：<input type="radio" name="sex" value="男" id="male" />
+              <label for="male">男</label>
+              <input type="radio" name="sex" value="女" id="female" />
+              <label for="female">女</label> <br />
+        年龄：<input type="text" name="age" /> <br />
+        生日：<input type="text" name="birthday" id="birthday"/> <br />
+        &nbsp;&nbsp;&nbsp;<label for="birthday">格式：xxxx-mm-dd</label> <br />
+        爱好：<input type="checkbox" name="interest" value="音乐影视" id="i1" /> 音乐影视
+              <input type="checkbox" name="interest" value="外出旅游" id="i2" /> 外出旅游
+              <input type="checkbox" name="interest" value="社交活动" id="i3" /> 社交活动
+        <br />
+        省市：<select name="area">
+                <optgroup label="北京市">
+                    <option value="北京市海淀区">海淀区</option>
+                    <option value="北京市朝阳区">海淀区</option>
+                    <option value="北京市东城区">海淀区</option>
+                    <option value="北京市西城区">海淀区</option>
+                </optgroup>
+                <optgroup label="山东省">
+                    <option value="山东省济南市">济南市</option>
+                    <option value="山东省青岛市">青岛市</option>
+                    <option value="山东省潍坊市">潍坊市</option>
+                </optgroup>
+              </select> <br /><br />
+        自我描述：<br><br><textarea name="description" rows="8">请填写其他资料...</textarea> <br /><br />
+        <input type="submit" name="btn" value="提交信息"> <br />
+    </form>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+        function ajaxTest() {
+            // 使用$.ajax()发送异步请求
+            // $.ajax(url, option)
+            $.ajax({
+                url: "/ajaxServlet2", // 请求路径
+                type: "POST", // 请求方式
+                //OK: data: "username=jerry&age=30", // 请求参数
+                data: {"username":"jerry", "age":30},
+                success: function (data) {
+                    alert(data); // hello: jerry
+                    document.getElementById("mydiv").innerHTML = data;
+                },
+                error: function () {
+                    alert("出错了...");
+                },
+                // 预期服务器返回的数据类型
+                dataType:"text"
+            });
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="发送异步请求" onclick="ajaxTest()">
+    <div id="mydiv">
+    </div>
+</body>
+</html>

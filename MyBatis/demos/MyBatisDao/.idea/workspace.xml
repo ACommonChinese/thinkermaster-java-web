@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c925a45-64ce-42e4-ac01-9c4dcd77adfc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../CustomMyBatis_annotation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_book/MyBatis/demos/CustomMyBatis/.idea/CustomMyBatis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatis/ProxyDemo/ProxyDemo.xcodeproj/project.xcworkspace/xcuserdata/banma-1118.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatis/ProxyDemo/ProxyDemo.xcodeproj/project.xcworkspace/xcuserdata/banma-1118.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBatis/ProxyDemo/ProxyDemo/ViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/../../MyBatis/ProxyDemo/ProxyDemo/ViewController.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomMyBatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomMyBatis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomMyBatis/target/classes/com/daliu/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomMyBatis/target/classes/com/daliu/dao/IUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomMyBatis/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomMyBatis/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomMyBatis_annotation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomMyBatis_annotation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomMyBatis_annotation/src/main/java/com/daliu/mybatis/utils/XMLConfigBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomMyBatis_annotation/src/main/java/com/daliu/mybatis/utils/XMLConfigBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBatisCURDDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBatisCURDDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daliu/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daliu/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/daliu/test/MyBatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/daliu/test/MyBatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SUMMARY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Servlet/@PostConstruct_@PreDestroy.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Servlet/@PostConstruct_@PreDestroy.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W12upUgxZ5HBsjCyWfFoUySKef" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Performance</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>GSPGrailsGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GrailsGroovy</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="executor&#9;PSI&#9;JAVA://java.util.concurrent.Executor" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RunManager" selected="JUnit.MyBatisTest.testFindAll">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatisDao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.daliu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.daliu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.daliu.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatisDao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.daliu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.daliu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.daliu.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.testFindByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatisDao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.daliu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.daliu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.daliu.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="testFindByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.testFindOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatisDao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.daliu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.daliu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.daliu.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="testFindOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.testFindTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatisDao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.daliu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.daliu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.daliu.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="testFindTotal" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MyBatisTest.testDelete" />
+      <item itemvalue="JUnit.MyBatisTest.testFindOne" />
+      <item itemvalue="JUnit.MyBatisTest.testFindByName" />
+      <item itemvalue="JUnit.MyBatisTest.testFindTotal" />
+      <item itemvalue="JUnit.MyBatisTest.testFindAll" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyBatisTest.testFindAll" />
+        <item itemvalue="JUnit.MyBatisTest.testFindTotal" />
+        <item itemvalue="JUnit.MyBatisTest.testFindByName" />
+        <item itemvalue="JUnit.MyBatisTest.testFindOne" />
+        <item itemvalue="JUnit.MyBatisTest.testDelete" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c925a45-64ce-42e4-ac01-9c4dcd77adfc" name="Default" comment="" />
+      <created>1574004822752</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574004822752</updated>
+      <workItem from="1574004825458" duration="769000" />
+      <workItem from="1574088683495" duration="2346000" />
+      <workItem from="1574261276826" duration="3121000" />
+      <workItem from="1574264768532" duration="17000" />
+      <workItem from="1578303007092" duration="2108000" />
+      <workItem from="1578305618779" duration="415000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1238" height="352" key="GridCell.Tab.0.bottom" timestamp="1578305589228">
+      <screen x="0" y="23" width="1280" height="658" />
+    </state>
+    <state width="1238" height="352" key="GridCell.Tab.0.bottom/0.23.1280.658@0.23.1280.658" timestamp="1578305589228" />
+    <state width="1238" height="352" key="GridCell.Tab.0.bottom/0.23.1280.660@0.23.1280.660" timestamp="1578303393531" />
+    <state width="1267" height="353" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1578303231162" />
+    <state width="1238" height="352" key="GridCell.Tab.0.center" timestamp="1578305589227">
+      <screen x="0" y="23" width="1280" height="658" />
+    </state>
+    <state width="1238" height="352" key="GridCell.Tab.0.center/0.23.1280.658@0.23.1280.658" timestamp="1578305589227" />
+    <state width="1238" height="352" key="GridCell.Tab.0.center/0.23.1280.660@0.23.1280.660" timestamp="1578303393530" />
+    <state width="1267" height="353" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1578303231161" />
+    <state width="1238" height="352" key="GridCell.Tab.0.left" timestamp="1578305589227">
+      <screen x="0" y="23" width="1280" height="658" />
+    </state>
+    <state width="1238" height="352" key="GridCell.Tab.0.left/0.23.1280.658@0.23.1280.658" timestamp="1578305589227" />
+    <state width="1238" height="352" key="GridCell.Tab.0.left/0.23.1280.660@0.23.1280.660" timestamp="1578303393530" />
+    <state width="1267" height="353" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1578303231161" />
+    <state width="1238" height="352" key="GridCell.Tab.0.right" timestamp="1578305589228">
+      <screen x="0" y="23" width="1280" height="658" />
+    </state>
+    <state width="1238" height="352" key="GridCell.Tab.0.right/0.23.1280.658@0.23.1280.658" timestamp="1578305589228" />
+    <state width="1238" height="352" key="GridCell.Tab.0.right/0.23.1280.660@0.23.1280.660" timestamp="1578303393531" />
+    <state width="1267" height="353" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1578303231161" />
+    <state x="482" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1578305618789">
+      <screen x="0" y="23" width="1280" height="658" />
+    </state>
+    <state x="482" y="187" key="com.intellij.ide.util.TipDialog/0.23.1280.658@0.23.1280.658" timestamp="1578305618789" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/daliu/dao/impl/UserDaoImpl.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MyBatisDao</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

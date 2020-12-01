@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="50265ce6-234b-4e1c-88d9-7bde46ecef05" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VWYapK4jfyAv4mMCa7lpzOqtbf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AccountServiceTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ANNO_IOC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AccountServiceTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountServiceTest.testFindAll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50265ce6-234b-4e1c-88d9-7bde46ecef05" name="Default Changelist" comment="" />
+      <created>1577370383515</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577370383515</updated>
+      <workItem from="1577370386797" duration="1079000" />
+      <workItem from="1577371670468" duration="576000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1299" height="2" key="GridCell.Tab.0.bottom" timestamp="1577372248123">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1299" height="2" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1577372248123" />
+    <state width="1299" height="275" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1577371756498" />
+    <state width="1299" height="2" key="GridCell.Tab.0.center" timestamp="1577372248122">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1299" height="2" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1577372248122" />
+    <state width="1299" height="275" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1577371756497" />
+    <state width="1299" height="2" key="GridCell.Tab.0.left" timestamp="1577372248122">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1299" height="2" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1577372248122" />
+    <state width="1299" height="275" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1577371756496" />
+    <state width="1299" height="2" key="GridCell.Tab.0.right" timestamp="1577372248122">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1299" height="2" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1577372248122" />
+    <state width="1299" height="275" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1577371756498" />
+    <state x="446" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1577371670339">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="446" y="256" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1577371670339" />
+    <state x="525" y="93" key="spring file set editor" timestamp="1577370532918">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="525" y="93" key="spring file set editor/0.23.1440.828@0.23.1440.828" timestamp="1577370532918" />
+  </component>
+</project>

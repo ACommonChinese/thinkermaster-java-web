@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../js/jquery-3.3.1.min.js"></script>
+		<script>
+			$(function () {
+				// ----- 内容操作 val() ----------------
+				// 获取myinput 的value值
+				// 注意jQuery的方法名是val()而不是value()
+				var value = $("#myinput").val();
+				alert(value);
+				$("#myinput").val("李四") // 设置值
+
+				// ----- 标签体操作 html() ----------------
+				// 获取mydiv的标签体内容
+				var html = $("#mydiv").html();
+				alert(html); // <p><a href="#">标题标签</a></p>
+				$("#mydiv").html("<a href='https://www.baidu.com'>百度</a>") // 设置值
+
+				// ----- 文本操作 text() ----------------
+				// 获取mydiv文本内容
+				var text = $("#mydiv").text();
+				alert(text); // 标题标签
+				$("#mydiv").text("百度一下,就你知道"); // 设置值
+			});
+		</script>
+	</head>
+	<body>
+		<input id="myinput" type="text" name="username" value="张三" /><br />
+		<div id="mydiv"><p><a href="#">标题标签</a></p></div>
+	</body>
+</html>

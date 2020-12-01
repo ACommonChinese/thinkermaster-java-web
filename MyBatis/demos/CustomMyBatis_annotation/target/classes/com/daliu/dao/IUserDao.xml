@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.daliu.dao.IUserDao">
+<!--配置查询所有-->
+<select id="findAll" resultType="com.daliu.domain.User">
+    select * from user
+</select>
+</mapper>
+<!--
+在Configuration对象中除了维护MySQK连接时需要的driver, url, username, pass信息外，还维护了一个HashMap
+
+        | key: com.daliu.dao.IUserDao.findAll
+        |
+HashMap |                        | queryString: select * from user
+        | value是一个Mapper对象: |
+        |                        | resultType: com.daliu.domain.User
+
+-->
+

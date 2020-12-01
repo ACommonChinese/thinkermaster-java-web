@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传示例</title>
+</head>
+<body>
+<form action="servlet/UploadSevlet" enctype="multipart/form-data" method="post">
+    <div align="center">
+        <div align="left">上传文件一&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="file" name="file1" />
+        </div>
+        <div align="left">上传文件二&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="file" name="file2" />
+        </div>
+        <div align="left">上传文件一说明&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="description1" />
+        </div>
+        <div align="left">上传文件二说明&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="description2" />
+        </div>
+    </div>
+    <br/>
+    <input type="submit" value=" 上传文件 " />
+</form>
+</body>
+</html>
