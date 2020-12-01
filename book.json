@@ -1,6 +1,7 @@
 {
     "plugins": [
-        "hide-element"
+        "hide-element",
+        "expandable-chapters"
     ],
     
     "pluginsConfig":{
