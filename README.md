@@ -1,6 +1,6 @@
 # thinkermaster-java-web
 
-Hi, 我是大刘, 一名非常普通的程序员, 学习备记, 希望对你也有所帮助, Welcome
+Hi, 我是大刘, 一名非常普通的程序员, 学习笔记, 希望对你也有所帮助, Welcome
 
 You can visit [http://www.thinkermaster.com](http://www.thinkermaster.com)
 
