@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function ajaxTest() {
+            var xmlhttp;
+            if (window.XMLHttpRequest) {
+                // IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp = new XMLHttpRequest();
+            } else {
+                // IE5, IE6
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            /**
+             * 建立连接
+             * open(method: string, url: string, async: boolean, username?: string | null, password?: string | null): void;
+             * 参数:
+             * 1. 请求方式: GET/POST
+             * 2. 请求的URL
+             * 3. 是否是异步请求
+             */
+            // xmlhttp.open("GET", "test1.txt", true);
+            // GET方式,请求参数在URL后边拼接, send()方法空参
+            // POST方式, 请求参数在send()方法中定义,比如: xmlhttp.send("username", "daliu")
+            xmlhttp.open("GET", "/ajaxServlet?username=tom", true);
+
+            // 发送请求
+            xmlhttp.send();
+
+            // 接受并处理来自服务器的响应结果
+            // 当服务器响应成功后再获取
+            xmlhttp.onreadystatechange = function () {
+                /**
+                 * 0: 请求未初始化
+                 * 1: 服务器连接已建立
+                 * 3: 请求处理中
+                 * 4: 请求已完成,且响应已就绪
+                 */
+                if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                    document.getElementById("mydiv").innerHTML = xmlhttp.responseText;
+                }
+            };
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="发送异步请求" onclick="ajaxTest()">
+    <div id="mydiv">
+    </div>
+</body>
+</html>

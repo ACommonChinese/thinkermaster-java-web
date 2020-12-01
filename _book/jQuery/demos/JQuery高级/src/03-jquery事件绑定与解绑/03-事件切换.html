@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/jquery-migrate-1.0.0.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        // 注: 1.9版本之后移除掉了toggle功能
+        // 可以使用jquery-migrate插件
+        // jq对象.toggle(fn1,fn2,fn3...)
+        // 第1次点击:执行fn1
+        // 第2次点击:执行fn2
+        // 第3次点击:执行fn3
+        // 第4次点击:执行fn4, 如果没有,则执行fn1
+        $(function () {
+            $("#btn").toggle(function () {
+                $("#myDiv").css("backgroundColor", "green");
+            }, function () {
+                $("#myDiv").css("backgroundColor", "red");
+            })
+        });
+    </script>
+</head>
+<body>
+    <input id="btn" type="button" value="事件切换">
+    <div id="myDiv" style="width:300px;height:300px;background:pink">
+        点击按钮变成绿色，再次点击红色
+    </div>
+</body>
+</html>
+

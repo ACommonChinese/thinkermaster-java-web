@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Cache" content="no-cache">
+        <title>This is title</title>
+        <script type="text/javascript">
+                function reloadImage() {
+                document.getElementById('btn').disabled = true;
+                document.getElementById('identityImg').src = "servlet/IdentityServlet?xx=" + new Date().getTime();
+                // document.getElementById('identityImg').src = "servlet/IdentityServlet";
+            }
+        </script>
+    </head>
+    <body>
+        <img src="servlet/IdentityServlet" id="identityImg" onload="btn.disabled=false;">
+        <input type="button" value=" 换个图片" onclick="reloadImage()" id="btn">
+        这里不是乱码，哈哈
+    </body>
+</html>

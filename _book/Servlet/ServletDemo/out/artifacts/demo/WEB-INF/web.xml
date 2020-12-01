@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd"
+           version="4.0">
+
+    <context-param>
+        <param-name>upload folder</param-name>
+        <param-value>attachment</param-value>
+    </context-param>
+    <context-param>
+        <param-name>allowed file type</param-name>
+        <param-value>.gif, .jpg, .bmp</param-value>
+    </context-param>
+
+    <!--注：env-entry只读配置java.lang包下的标类型的变量，如String, Integer, Double等-->
+    <env-entry>
+        <env-entry-type>java.lang.String</env-entry-type>
+        <env-entry-name>name</env-entry-name>
+        <env-entry-value>大刘</env-entry-value>
+    </env-entry>
+    <env-entry>
+        <env-entry-type>java.lang.Integer</env-entry-type>
+        <env-entry-name>age</env-entry-name>
+        <env-entry-value>30</env-entry-value>
+    </env-entry>
+    
+    <servlet>
+        <servlet-name>ContextParamServlet</servlet-name>
+        <servlet-class>com.daliu.servlet.ContextParamServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ContextParamServlet</servlet-name>
+        <url-pattern>/servlet/ContextParamServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>FirstServlet</servlet-name>
+        <servlet-class>com.daliu.servlet.FirstServlet</servlet-class>
+        <!--Servlet中可以使用
+        getServletContext().getInitParam(String paramName)
+        获取配置的初始化参数值-->
+        <init-param>
+            <param-name>message</param-name>
+            <param-value>Welcome to FirstServlet</param-value>
+        </init-param>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>utf-8</param-value>
+        </init-param>
+        <!--load-on-startup配置该Servlet的加载方式，可选值0或1
+        如果配置为1，Tomcat会在启动时加载Servlet，
+        否则，Tomcat会在第一次请求该Servlet时才加载此Servlet-->
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FirstServlet</servlet-name>
+        <url-pattern>/servlet/FirstServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>com.daliu.servlet.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/servlet/HelloServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>RequestServlet</servlet-name>
+        <servlet-class>com.daliu.servlet.RequestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestServlet</servlet-name>
+        <url-pattern>/servlet/RequestServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>IdentityServlet</servlet-name>
+        <servlet-class>com.daliu.servlet.IdentityServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IdentityServlet</servlet-name>
+        <url-pattern>/servlet/IdentityServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>InitParamServlet</servlet-name>
+        <servlet-class>com.daliu.servlet.InitParamServlet</servlet-class>
+        <init-param>
+            <param-name>firstName</param-name>
+            <param-value>firstValue</param-value>
+        </init-param>
+        <init-param>
+            <param-name>secondName</param-name>
+            <param-value>secondValue</param-value>
+        </init-param>
+        <init-param>
+            <param-name>thirdName</param-name>
+            <param-value>thirdValue</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InitParamServlet</servlet-name>
+        <url-pattern>/servlet/InitParamServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>InjectionServlet</servlet-name>
+        <servlet-class>com.daliu.servlet.InjectionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InjectionServlet</servlet-name>
+        <url-pattern>/servlet/InjectionServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>JNDIServlet</servlet-name>
+        <servlet-class>com.daliu.servlet.JNDIServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JNDIServlet</servlet-name>
+        <url-pattern>/servlet/JNDIServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SearchServlet</servlet-name>
+        <servlet-class>com.daliu.servlet.SearchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchServlet</servlet-name>
+        <url-pattern>/servlet/SearchServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>PostServlet</servlet-name>
+        <servlet-class>com.daliu.servlet.PostServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PostServlet</servlet-name>
+        <url-pattern>/servlet/PostServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UploadSevlet</servlet-name>
+        <servlet-class>com.daliu.servlet.UploadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadSevlet</servlet-name>
+        <url-pattern>/servlet/UploadSevlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ProgressUploadServlet</servlet-name>
+        <servlet-class>com.daliu.servlet.upload.ProgressUploadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProgressUploadServlet</servlet-name>
+        <url-pattern>/servlet/ProgressUploadServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>LifeCycleServlet</servlet-name>
+        <servlet-class>com.daliu.servlet.LifeCycleServlet</servlet-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>utf-8</param-value>
+            <param-name>startPoint</param-name>
+            <param-value>1600</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LifeCycleServlet</servlet-name>
+        <url-pattern>/servlet/LifeCycleServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
+
+

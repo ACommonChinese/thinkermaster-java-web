@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<!-- mybatis的主配置文件 -->
+<configuration>
+    <!-- 配置properties-->
+    <properties resource="jdbcConfig.properties"></properties>
+
+    <!--使用typeAliases配置别名，它只能配置domain中类的别名 -->
+    <typeAliases>
+        <package name="com.daliu.domain"></package>
+    </typeAliases>
+
+    <!--配置mysql的环境-->
+    <environments default="mysql">
+        <environment id="mysql">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"></property>
+                <property name="url" value="${jdbc.url}"></property>
+                <property name="username" value="${jdbc.username}"></property>
+                <property name="password" value="${jdbc.password}"></property>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!-- 配置映射文件的位置 -->
+    <mappers>
+        <!--
+        <mapper resource="com/daliu/dao/IUserDao.xml" />
+        <mapper resource="com/daliu/dao/IRoleDao.xml" />
+        <mapper resource="com/daliu/dao/IUserRole.xml" />
+        -->
+        <package name="com.daliu.dao"></package>
+    </mappers>
+</configuration>

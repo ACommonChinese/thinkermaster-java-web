@@ -1,0 +1,50 @@
+解决方案：
+https://www.dzliving.com/2019/09/16/iOS/iOS%E5%8E%9F%E7%90%86/NSProxy/
+https://gist.github.com/zats/c74f38fd5658970d5060
+
+Dynamic class:
+http://blog.zats.io/2014/07/15/advanced-nsproxy/
+
+Java的invoke方法：
+public Object invoke(Object proxy, Method method, Object[] args
+有：
+对象
+方法名
+所有参数
+
+// OC的协议
+https://code.tutsplus.com/tutorials/objective-c-succinctly-protocols--mobile-22019
+
+动态代理相关：
+https://stackoverflow.com/questions/2175547/objective-c-dynamic-object-creation
+
+class_copyMethodList  https://www.jianshu.com/p/b30c2580d977
+
+NSMethodSignature
+https://lists.apple.com/archives/cocoa-dev/2003/Mar/msg00802.html
+
+// OC运行时方法列表
+https://docs.rs/objc/0.1.5/objc/runtime/fn.class_copyMethodList.html
+
+// NSProxy实例不被ARC释放
+https://stackoverflow.com/questions/44420489/nsproxy-forwardinvocation-return-an-new-nsproxy-instance-cause-memory-leak
+
+// LazyProxy
+http://andyarvanitis.com/lazy-initialization-for-objective-c/
+
+// Using NSProxy With UIKit
+https://mazyod.com/blog/2014/03/10/nsproxy-with-uikit/
+
+===========================================
+				设计思路
+===========================================
+1. 声明协议
+2. 动态创建一个遵守此协议的对象obj并由Proxy hook此对象方法
+3. 调用obj的方法时拿到方法名，参数列表并调用Proxy的invoke方法
+4. Proxy中有了这一切之后进行SQL处理
+doesNotRecognizeSelector
+
+@interface Protocol : NSObject 它本身也是继承于NSObject对象
+
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+</head>
+<script src="js/jquery-3.3.1.min.js"></script>
+
+<script>
+    $(function () {
+        $("#username").blur(function () {
+            //获取username文本输入框的值
+            //发送ajax请求
+            var username = $(this).val();
+            $.get("findUserServlet", {"username":username}, function (data) {
+                //服务器响应的数据格式: {"userExist":true|false}
+                var span = $("#s_username");
+                if (data.userExist) {
+                    //用户名存在
+                    span.css("color", "red").html(data.msg);
+                } else {
+                    span.css("color", "green").html(data.msg);
+                }
+            }, "json");
+            /**
+             * url, [data], [callback], [type]
+             * get的type参数:
+             * xml, html, script, json, text, _default
+             */
+        });
+    });
+</script>
+<body>
+<form>
+    <input id="username" type="text" name="username" placeholder="请输入用户名">
+    <span id="s_username"></span><br>
+    <input id="password" type="text" name="password" placeholder="请输入密码"><br>
+    <input type="submit" value="注册"><br>
+</form>
+</body>
+</html>

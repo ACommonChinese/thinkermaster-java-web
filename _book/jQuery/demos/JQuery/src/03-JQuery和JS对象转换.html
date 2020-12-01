@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+        window.onload = function () {
+            $("#b1").click(
+                function () {
+                    alert("did click me");
+                    $("#div1").css("backgroundColor", "green");
+                }
+            );
+        }
+    </script>
+</head>
+<body>
+    <div id="div1">div1...</div>
+    <div id="div2">div2...</div>
+    <input type="button" value="点我" id="b1">
+</body>
+</html>

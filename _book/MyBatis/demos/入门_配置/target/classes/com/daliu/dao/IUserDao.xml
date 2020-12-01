@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.daliu.dao.IUserDao">
+    <select id="findAll" resultType="com.daliu.domain.User">
+        select * from user #查找到一条条记录封装成User对象, 然后返回User数组
+    </select>
+</mapper>
